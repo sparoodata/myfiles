@@ -1,0 +1,4 @@
+export TABLE_EXCLUDE_research='^(daily|quote_snap_credit|credit_vol)$'
+export TABLE_EXCLUDE__timescaledb_internal='^_compressed_hypertable_16$'
+export TABLE_EXCLUDE_ticks='^trade$'
+export TABLE_EXCLUDE_xccy='^ubs_stir_analytics$'
